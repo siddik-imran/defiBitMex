@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* styling header section  */
+.header-top {
+    background: #204797;
+}
+.social-icon a {
+    margin-right: 25px;
+}
+.social-icon a:last-child{
+    margin-right: 0;
+}
+.social-icon a i.fab{
+    color: #fff;
+    font-size: 17px;
+
+}
+.login-register a{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+.login-register a:last-child{
+    margin-right: 0;
+}
+
+.logo {
+    width: 265px;
+}
+.logo img {
+    width: 100%;
+}
+
+.nav-links a {
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.nav-links a:last-child{
+    margin-right: 0;
+}
+.nav-links a.active{
+    color: #204797;
+}
+/* end styling   */
+
+/* hero sectin styling  */
+#slider-image {
+    position: relative;
+}
+
+#hero {
+    content: '';
+    position: absolute;
+    top: 230px;
+    left: 108px;
+}
+.landing-text h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.start-now-btn{
+    border: none;
+    border-radius: 40px;
+    padding: 8px 20px;
+    background-color: #204797;
+}
+/* end hero sectin styling  */
+
+/* pricing section styling */
+#spike {
+    color: #204797;
+    font-size: 28px;
+    font-weight: 400;
+}
+.main-content h3{
+    font-weight: 400;
+}
+.main-content p {
+    color: #9C9B9B;
+    font-size: 11px;
+    padding-bottom: 50px;
+}
+
+.wrapper {
+    background: #F4FAFC;
+    border: 1px solid #C6DFEA;
+    border-radius: 2px;
+    padding: 12px;
+    width: 90%;
+    height: 110px;
+}
+.wrapper img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.wrapper p {
+    font-size: 11px;
+    color: #9C9B9B;
+    font-weight: bold;
+}
+span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+.count p {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -8px;
+}
+.loading{
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    color: #000000 !important;
+}
+
+.rtr {
+    color: black !important;
+}
+/* end section  */
+
+/* get in touch section  */
+#get-in-touch {
+    background: #D7DDED;
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding: 30px 0px;
+}
+
+.content img {
+    width: 50px;
+}
+.content h5 {
+    font-size: 18px;
+    color: #101011;
+    font-weight: bold;
+}
+.content p {
+    font-size: 11px;
+    color: #101011;
+    font-weight: bold;
+}
+
+/* news letter  */
+.title h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+#news-letter {
+    background: #000000;
+    padding: 40px 0px;
+}
+
+.register-now{
+    border: 1px solid #214797;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: 12px;
+    margin-right: 2px;
+    background: #214797;
+    color: #fff;
+    display: inline-block;
+    font-weight: 600;
+}
+.register-now:hover {
+    background: #000000;
+    color: #214797;
+}
+.trade-now{
+    border: 1px solid #214797;
+    border-radius: 5px;
+    padding: 6px 14px;
+    font-size: 12px;
+    margin-right: 2px;
+    background: #000000;
+    color: #214797;
+    font-weight: 600;
+    display: inline-block;
+}
+.trade-now:hover{
+    background: #214797;
+    color: #fff;
+}
+input[type=email]{
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 12px;
+    padding: 6px 10px;
+
+}
+/* end section  */
+
+/* footer section  */
+#footer-top{
+    background: #214797;
+    padding: 50px 0;
+}
+
+.branding img {
+    width: 50%;
+}
+.support-menu-socail-links h5{
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-menu-socail-links a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.copyright{
+    font-weight: bold;
+    font-size: 14px;
+}
+/* end footer  */
+
+
+/* Start responsive styling  */
+@media screen and (max-width: 1200px){
+    #hero {
+        top: 180px;
+        left: 100px;
+    }
+    .landing-text h1{
+        font-size: 70px;
+    }
+    .start-now-btn{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 992px){
+    #hero {
+        top: 160px;
+    }
+    .landing-text h1{
+        font-size: 50px;
+    }
+    .start-now-btn{
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .wrapper {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .nav-links{
+      display: none;
+    }
+    .navbar-toggler{
+        display: visible;
+        display: flex;
+        flex-direction: row !important;
+        justify-content: center !important;
+        align-items: center;
+        background: #fff;
+        padding: 10px;
+        position: absolute;
+        z-index: 1000;
+        top: 30px;
+        left: 0;
+        width: 100%;
+        opacity: 0.6;
+        height: 60px;
+        font-size: 24px;
+        border-radius: 5px;
+    
+    }
+    .bar {
+        background-color: #204797;
+        width: 30px;
+        height: 4px;
+        margin: 5px;
+        border: none;
+    }
+    .logo {
+        width: 200px;
+    }
+ 
+    #hero {
+        top: 160px;
+        left: 90px;
+    }
+    .landing-text h1{
+        font-size: 40px;
+    }
+    .landing-text p {
+        display: none;
+    }
+    .start-now-btn{
+        padding: 6px 14px;
+    }
+    .wrapper {
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width: 576px){
+    
+    #hero {
+        top: 150px;
+        left: 20px;
+       
+    }
+    .landing-text h1{
+        font-size: 40px;
+    }
+    .start-now-btn{
+        padding: 6px 14px;
+    }
+    .wrapper {
+        margin-bottom: 10px;
+    }
+    .subcription button {
+        margin-bottom: 14px;
+    }
+    .branding p {
+        margin-top: -10px !important;
+        margin-bottom: 30px;
+    }
+}
